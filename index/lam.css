@@ -25,32 +25,31 @@ body {
 #main_nav li { float:right; }
 #main_nav li a { text-indent: -999999px; overflow: hidden; display:inline; height: 63px; }
 
-a.despre:link{display:block; float:right; background-image:url(../img_prelucrate/btndespre.png); background-repeat:no-repeat; width:195px; height:63px;
-}
-a.despre:hover {background-image:url(../img_prelucrate/btndespre.png) 0 126px;
-}
-a.despre:active {background-image:url(../img_prelucrate/btndespre.png) 0 63px;
-}
-
-a.contact:link{display:block; float:right; background-image:url(../img_prelucrate/contact.png); background-repeat:no-repeat; width:195px; height:63px;
-}
-a.contact:hover {background-image:url(../img_prelucrate/contact.png) 0 126px;
-}
-a.contact:active {background-image:url(../img_prelucrate/contact.png) 0 63px;
+a.despre:link, a.produse:link, a.parteneri:link, a.contact:link   {
+	display:block; 
+	float:left; 
+	background-repeat:no-repeat; 
+	width:195px; 
+	height:63px;
 }
 
-a.parteneri:link{display:block; float:right; background-image:url(../img_prelucrate/parteneri.png); background-repeat:no-repeat; width:195px; height:63px;
+a.despre:link {
+	background-image:url('../img_prelucrate//btndespre.png');
 }
-a.parteneri:hover {background-image:url(../img_prelucrate/parteneri.png) 0 126px;
+a.parteneri:link {
+	background-image:url('../img_prelucrate//parteneri.png');
 }
-a.parteneri:active {background-image:url(../img_prelucrate/parteneri.png) 0 63px;
+a.produse:link {
+	background-image:url('../img_prelucrate//produse.png');
+}
+a.contact:link {
+	background-image:url('../img_prelucrate/contact.png');
 }
 
-a.produse:link{display:block; float:right; background-image:url(../img_prelucrate/produse.png); background-repeat:no-repeat; width:195px; height:63px;
+
+a.despre:hover, a.produse:hover, a.parteneri:hover, a.contact:hover  {background-position: 0 -126px;
 }
-a.produse:hover {background-image:url(../img_prelucrate/produse.png) 0 126px;
-}
-a.produse:active {background-image:url(../img_prelucrate/produse.png) 0 63px;
+a.despre:active, a.produse:active, a.parteneri:active, a.contact:active  {background-position: 0 -63px;
 }
 
 
